@@ -1,0 +1,94 @@
+{
+  "Console Log": {
+    "prefix": "cl",
+    "body": [
+      "console.log($1)$2"
+    ]
+  },
+  "React interface": {
+    "prefix": "iface",
+    "body": [
+      "interface $1Props {",
+      "  $2: $3;",
+      "}",
+    ]
+  },
+  "React useState": {
+    "prefix": "us",
+    "body": [
+      "const [$1, set$2] = useState($3);"
+    ]
+  },
+  "React useEffect": {
+    "prefix": "ue",
+    "body": [
+      "useEffect(() => {",
+      "  $1",
+      "}, [$2]);"
+    ]
+  },
+  "React useCallback": {
+    "prefix": "ucb",
+    "body": [
+      "useCallback(() => {",
+      "  $1",
+      "}, [$2]);"
+    ]
+  },
+  "React useMemo": {
+    "prefix": "umm",
+    "body": [
+      "useMemo(() => {",
+      "  $1",
+      "}, [$2]);"
+    ]
+  },
+  "Arrow Function": {
+    "prefix": "fc",
+    "body": "($1) => { $2 }",
+  },
+  "Async React Function Component": {
+    "prefix": "afc",
+    "body": [
+      "const $1 = async () => {",
+      "  return $2;",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  },
+  "Async React Function Component with Props": {
+    "prefix": "afcp",
+    "body": [
+      "interface $1Props {}",
+      "",
+      "const $1 = async ({}: $1Props) => {",
+      "  return $2;",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  },
+  "React Function Component": {
+    "prefix": "rfc",
+    "body": [
+      "const $1 = () => {",
+      "  return $2;",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  },
+  "React Function Component with Props": {
+    "prefix": "rfcp",
+    "body": [
+      "interface $1Props {}",
+      "",
+      "const $1 = ({}: $1Props) => {",
+      "  return $2;",
+      "};",
+      "",
+      "export default $1;"
+    ]
+  }
+}

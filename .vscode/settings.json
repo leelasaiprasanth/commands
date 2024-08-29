@@ -1,0 +1,60 @@
+{
+  // Editor changes
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Roboto Mono', Consolas, 'Courier New', monospace",
+  "breadcrumbs.filePath": "last",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmPasteNative": false,
+  "workbench.tree.indent": 4,
+  "workbench.activityBar.location": "hidden",
+  "window.confirmSaveUntitledWorkspace": false,
+  // 'Cascadia Code', 'FiraCode Nerd Font', Menlo, Monaco, 'Courier New', monospace
+
+  // Automatic Color schema
+  "editor.guides.bracketPairs": "active",
+  "editor.guides.bracketPairsHorizontal": false,
+  "window.autoDetectColorScheme": true,
+
+  // MarkDown editing
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
+
+  // Extension settings
+  "codeium.enableCodeLens": false,
+
+  // Formating on Save
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "notebook.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Sticky Scroll
+  "editor.stickyScroll.enabled": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "workbench.tree.enableStickyScroll": false,
+
+  // Misslenious settings
+  "editor.hover.delay": 550,
+  "editor.linkedEditing": true,
+  "scm.alwaysShowActions": true,
+  "scm.alwaysShowRepositories": true,
+  "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "extensions.closeExtensionDetailsOnViewChange": true,
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "emmet.showSuggestionsAsSnippets": true,
+  "editor.tabCompletion": "onlySnippets",
+  "reactSnippets.settings.prettierEnabled": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredLightColorTheme": "Default Light+",
+  "git.enableSmartCommit": true,
+  "editor.suggest.snippetsPreventQuickSuggestions": true,
+  "editor.tabSize": 2
+}
